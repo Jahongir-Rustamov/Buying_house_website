@@ -1,0 +1,539 @@
+* {
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Asosiy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background: url(../images/house1.webp);
+  background-repeat: no-repeat;
+}
+.main_body {
+  background-color: #003866;
+  height: 1900px;
+}
+.images img {
+  max-width: 130px;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 30px;
+  background-color: #003866;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+}
+.navn {
+  padding: 0.625rem;
+}
+.navigation1 a:hover {
+  color: goldenrod;
+}
+.navigation1 a {
+  text-decoration: none;
+  color: #ffff;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.navigation1 .nav2 i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  margin-left: 25px;
+}
+.navigation1 .nav1 i {
+  margin-left: 6px;
+  font-size: 15px;
+}
+.main_search label {
+  color: #ffff;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.43;
+  letter-spacing: -0.88px;
+  margin-bottom: 6.5px;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+}
+.main_search input {
+  height: 65px;
+  width: 120%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+::placeholder {
+  font-size: 1rem;
+  font-weight: 300;
+  padding-left: 5px;
+}
+.main_search .button1 {
+  height: 65px;
+  width: 65px;
+}
+.yura {
+  display: flex;
+}
+.yura button {
+  background-color: #ffff;
+  cursor: pointer;
+  border-right: 0.5px;
+  border-bottom: none;
+  border-top: none;
+}
+.yura button i {
+  font-size: 1.5rem;
+}
+/*Discription*/
+.contanier {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Discription {
+  padding-top: 95px;
+  display: flex;
+}
+.Discription .Photo img {
+  width: 520px;
+  margin-left: 120px;
+}
+.Discription .text_main h1 {
+  color: #ffff;
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+.Discription .text_main p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.68;
+  color: #fff;
+  word-break: break-word;
+  margin-top: 0.3rem;
+  font-family: "Times New Roman", Times, serif;
+}
+/*statistics*/
+.statistics {
+  padding-top: 95px;
+  display: flex;
+  color: aliceblue;
+  padding-bottom: 60px;
+}
+.statistics_item {
+  padding-left: 0px;
+}
+.statistics_number {
+  font-size: 1.8125rem;
+}
+.space {
+  padding-left: 60px;
+}
+.statistics_title {
+  font-size: 0.75rem;
+  line-height: 1.1rem;
+}
+/*informatioin_home*/
+.informatioin_home {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+.informatioin_home .home3 img {
+  /*570x552*/
+  height: 570px;
+  width: 570px;
+}
+.informatioin_home {
+  display: flex;
+}
+.Description1 {
+  margin-left: 100px;
+}
+.Description1 h2 {
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 1.33;
+  color: #fff;
+  word-break: break-word;
+  width: 100%;
+  margin-right: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.Description1 .title2 p {
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.67;
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+/*sell home*/
+.Home_sell {
+  padding-top: 150px;
+  background-color: #fff;
+  font-family: "Times New Roman", Times, serif;
+}
+.info_home {
+  display: flex;
+  justify-content: space-between;
+}
+/* button style */
+.homes_btn button {
+  font-size: 1.625rem;
+  margin: 0 0.8rem;
+  color: #191c1f;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.info_1 {
+  display: flex;
+}
+.info_home a {
+  margin-left: 35px;
+  text-decoration: none;
+  color: #003aa8;
+  font-family: "Nunito Sans", sans-serif !important;
+  font-size: 1rem;
+  font-weight: 600;
+  padding-bottom: 50px;
+  margin-top: 10px;
+}
+.info_home h2 {
+  font-size: 1.75rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.home_file:hover{
+  transform: scale(105%);
+    transition: transform 0.5s ease;
+     box-shadow: 0 3px 5px rgba(0,0,0,0.35);
+   
+}
+.home_file .picture img {
+  border-radius: 12px;
+  z-index: 0;
+  width: 290px;
+  height: 270px;
+  position: absolute;
+  /* transform: scale(1.15); */
+}
+.home_info_01 {
+  position: relative;
+  top: 160px;
+  margin-left: 20px;
+  z-index: 2;
+}
+.home_info_01 .home_cost {
+  position: absolute;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+}
+.home_file {
+  display: inline-block;
+}
+.Homes_files > div {
+  display: inline-block;
+  margin-right: 4.7%;
+  width: 20%;
+}
+.home_name {
+  margin-top: 30px;
+  position: absolute;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+.Homes_files span a {
+  text-decoration: none;
+  position: absolute;
+  background-color: #003866;
+  color: #fff;
+  height: 24px;
+  border-radius: 12px 0 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.6875rem;
+  padding: 0 0.8rem;
+}
+/* home info 02 */
+.home_info_02 p {
+  font-size: 1.125rem;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  color: #edf2fa;
+  z-index: 2;
+}
+.home_info_02 {
+  position: relative;
+  top: 200px;
+  margin-left: 20px;
+  display: flex;
+  z-index: 2;
+}
+.home_info_02 .agent_picture img {
+  width: 50%;
+  border-radius: 10px;
+  z-index: 2;
+  position: relative;
+  top: 8px;
+  left: 222px;
+}
+.Homes_files {
+  height: 330px;
+}
+.only_view {
+  width: 100%;
+  height: 490px;
+  background-color: #003866;
+}
+.Address_1 {
+  display: flex;
+}
+.Address_1 .for_find {
+  margin-top: 140px;
+}
+.for_find h1 {
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.for_find p {
+  color: white;
+  margin-top: 22px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+.for_find a:hover {
+  color: orange;
+  background-color: rgb(60, 7, 110);
+  transition: all 1s;
+}
+.for_find a {
+  background-color: #003aa8;
+  color: #fff;
+  font-size: 0.9rem;
+  border: 1px #fff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  display: inline-block;
+  width: 120px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+}
+.agent_picture_search img {
+  margin-left: 150px;
+}
+/* scroll */
+.Regions {
+  padding-top: 60px;
+  width: 100%;
+  height: 100%;
+}
+.Sarlavha h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #191c1f;
+  margin-bottom: 0;
+}
+.name {
+  position: relative;
+}
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: #003866;
+  position: relative;
+  margin: 0;
+  top: 10px;
+}
+.include .pmp .img img {
+  width: 130px;
+}
+.include {
+  padding-top: 31px;
+}
+.links a:hover {
+  color: orange;
+}
+.links a {
+  display: flex;
+  color: #fff;
+  position: relative;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  line-height: 2;
+  font-size: 1rem;
+}
+/* icons */
+.include .pmp .icons {
+  margin-top: 20px;
+}
+.footer .include .pmp .icons a {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 42px;
+  text-align: center;
+  border-radius: 36px;
+  font-size: 1 0px;
+  margin-right: 12px;
+  border: 0.7px solid #54595e;
+  color: #fff;
+  background-color: transparent;
+}
+.include .pmp .icons a:hover {
+  background-color: #fff;
+  transition: all 1s;
+}
+.footer .umn {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  position: relative;
+  top: 110px;
+}
+.footer .umn1 {
+  position: relative;
+  left: 120px;
+}
+.images  {
+  display: flex;
+}
+.images .options{
+  padding-top: 10px;
+  padding-left: 25px;
+}
+.images .options select{
+  background-color: #003866;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  outline: none;
+  border: none;
+  font-size: 18px;
+}
+/* java */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.java {
+  height: 100%;
+}
+.java {
+  display: inline-block;
+  place-content: center;
+}
+
+.java nav {
+  --size: 10px;
+  --gap: 10px;
+  container: dotnav / size;
+  width: 30vw;
+  height: 8vh;
+  overflow: hidden;
+
+}
+.mk{
+  display: flex;
+}
+ol {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--gap);
+  gap: var(--gap);
+  font-size: 0;
+  list-style: none;
+}
+.java{
+  margin-top: 90px;
+  margin-left: 200px;
+}
+li {
+  background: white;
+  border-radius: 50cqh;
+  transition: flex 250ms;
+  flex: 0 auto;
+}
+
+li:has(input:checked) {
+  flex: 1 auto;
+}
+
+label {
+  display: inline-block;
+  font-size: var(--size);
+  line-height: 1em;
+  min-width: 1em;
+}
+
+label:not(:has(input:checked)) {
+  cursor: pointer;
+}
+
+.java input {
+  visibility: hidden;
+}
+
+@container dotnav (aspect-ratio < 1) {
+  ol {
+    flex-direction: column;
+  }
+}
+
+/* html,
+body {
+position: relative;
+height: 100%;
+}
+body {
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  }
+  .swiper {
+   width: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  }
+  .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  }
+  .swiper-slide img {
+  display: block;
+  width: 100%;     
+ } */
+/* footer */

@@ -1,0 +1,86 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+body{
+    overflow-x: hidden;
+}
+/* box-shadow: 4px 4px 11px 0 rgba(0, 0, 0, 0.13); */
+.main_franch > div{
+   display: flex;   
+   
+}
+.main_franch .shadow{
+  margin: 3.1rem;
+  padding: 3rem;
+  box-shadow: 4px 4px 11px 0 rgba(0, 0, 0, 0.13);
+}
+.left_franch h3,
+.right_franch h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.73;
+    color: #191c1f;
+    margin-bottom: 1.5rem;
+}
+.left_franch .part .hr{
+    width: 100%;
+    margin: 0 0 1rem 0;
+    border-top: 1.3px solid rgb(22, 8, 8);
+}
+.left_franch .part p{
+  margin: 0;
+  font-size: 20px;
+}
+.part{
+    height: 110px;
+}
+.main_franch .left_franch .part h6{
+    margin-left: 36px;
+    margin-top: 35px ;
+    font-size: 14px;
+}
+.main_franch .left_franch .part a{
+    text-decoration: none;
+    color:#003aa8
+}
+/* inputs */
+.right_franch{
+    margin-left: 35px;
+}
+.inputs .common input{
+    display: block;
+    width: 170%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0.5px solid #ced4da;
+    border-radius: .25rem;
+    margin-bottom: 22px;
+}
+.inputs .button{
+    width: 70px;
+    height: 35px;
+}
+.inputs button{
+    border: 0;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #003aa8;
+    font-size: .9375rem;
+    font-weight: 700;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.inputs button:hover{
+    color: orange;
+    transition: all 1s;
+    background-color: #3c076e;
+}

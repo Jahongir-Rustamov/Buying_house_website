@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RE/MAX Clon</title>
+    <link rel="stylesheet" href="../WHY_RE_MAX/why.html">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="../script/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="../RE_MAX/RE_max.html">
+    <link rel="stylesheet" href="../CSS/main.css" />
+    <link rel="stylesheet" href="../CSS/swiper-bundle.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../contact/contact.html">
+    <style>
+      .swiper {
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+      }
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main_body">
+    <section>
+    <div class="Asosiy">
+      <header class="Main">
+        <div class="images">
+          <a class="image" href="../HTML/index.html"
+            ><picture><img
+                src="https://s.maxwork.pt/site/spa_resources/home/header/header_logo_collection_v1.jpg"
+                alt="Logo"
+              /></picture
+          ></a>
+          <form action="server.js" class="options">
+            <select name="Languages" id="select_one">
+              <option value="English">English</option>
+              <option value="Uzbek">Uzbek</option>
+            </select>
+          </form>
+        </div>
+        <nav class="navigation1">
+          <div>
+          <a class="navn" href="../development/dev.html">Developments</a>
+          <a class="navn" href="../HTML/index.html">buy</a>
+          <a class="navn" href="#">sell</a>
+          <a class="navn nav2" href="../Login/login.html">
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+            Sign Up
+          </a>
+        </nav>
+      </header>
+      <div class="main_search">
+        <form action="./server.php">
+          <label for="qidiruv"
+            >The largest selection of luxury properties in
+            <br />Uzbekistan!</label
+          >
+          <br />
+          <div class="yura">
+            <input
+              name="qidiruv"
+              placeholder="Where? (District or County or Zone or Address or Postal Code)"
+              class="Search"
+              aria-label="Listing Search"
+              value=""
+            />
+            <button class="button1" type="submit">
+              <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="contanier">
+      <div class="Discription">
+        <div class="text_main">
+          <div class="line"></div>
+          <h1>RE/MAX COLLECTION</h1>
+          <p>
+            Since its creation in 2024, RE/MAX Collection Uzbekistan has
+            consistently maintained its position as the number one specialist
+            real estate company in the luxury segment in Uzbekistan. With an
+            impressive portfolio of around 1,000 properties and a team of 1,000
+            certified real estate consultants, it has established itself as an
+            industry leader in the luxury real estate segment. Its unwavering
+            dedication to providing a superior level of service and personalized
+            care sets it apart from its competitors. One of the main factors
+            that differentiate RE/MAX Collection Uzbekistan is its recognized
+            experience in Marketing, specializing in the promotion and
+            presentation of properties to potential buyers or investors,
+            nationally and internationally.
+          </p>
+        </div>
+        <div class="Photo">
+          <img
+            src="../images/collection_banner_ovf_0.webp"
+            alt="wrong server"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+    <div class="contanier mk">
+      <section class="statistics " id="statistics">
+        <div class="statistics_item">
+            <h3 class="statistics_number">15</h3>
+            <p class="statistics_title">Agencies</p>
+        </div>
+        <div class="statistics_item space">
+            <h3 class="statistics_number">+1000</h3>
+            <p class="statistics_title">Real Estate <br>Consultants</p>
+        </div>
+        <div class="statistics_item space">
+            <h3 class="statistics_number">+21.5<i class="fa-solid fa-dollar-sign"></i> </h3>
+            <p class="statistics_title">Annual Sales
+            </p>
+        </div>
+        
+        <div class="statistics_item space">
+          <h3 class="statistics_number">395</h3>
+          <p class="statistics_title">Number of <br>luxury properties <br>sold in 2023
+          </p>
+      </div>
+    </section>
+    <section class="java">
+      <nav>
+        <ol>
+          <li>
+            <label for="1"><input type="radio" id="1" name="1" value="1" /></label>
+          </li>
+          <li>
+            <label for="2"><input type="radio" id="2" name="1" value="2" /></label>
+          </li>
+          <li>
+            <label for="3"><input type="radio" id="3" name="1" value="3" /></label>
+          </li>
+          <li>
+            <label for="4"><input type="radio" id="4" name="1" value="4" checked /></label>
+          </li>
+        </ol>
+      </nav>
+      <script>
+        const total = 4;
+          let i = 0;
+          const tick = () => document.querySelectorAll('body:not(:hover) input')?.[i++ % total]?.click();
+          tick();
+          setInterval(tick, 1000);
+      </script>
+    </div>
+    
+  </secton>
+    <div class="contanier">
+      <section class="informatioin_home">
+        <div class="home3">
+          <img src="../images/home3.21.webp" alt="This is anything wrong">
+        </div>
+        <div class="Description1">
+          <h2>SPECIALIST IN THE LUXURY <br>SEGMENT</h2>
+          <div class="title2">
+            <p>
+              With recognized relevant experience in the development sector, the <br>brand is increasingly
+              identified as a specialist in this high-quality <br>segment. The portfolio has more than 300 
+              luxury developments,<br> which allows developers, builders and other 
+              investors to choose the <br>RE/MAX Collection as the option when delivering their project.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="contanier">
+  <div class="Home_sell">
+    <section class="All_sell">
+      <div class="info_home">
+        <div class="info_1">
+        <h2>Latest Developments</h2>
+        <a href="../development/dev.html">See all</a>
+      </div>
+        <span class="homes_btn">
+          <button aria-pressed="false" aria-label="previous" tabindex="0">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="M12.707 17.293 8.414 13H18v-2H8.414l4.293-4.293-1.414-1.414L4.586 12l6.707 6.707z"></path></svg>
+          </button>
+          <button aria-pressed="false" aria-label="next" tabindex="0">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform:msFilter"><path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg>
+          </button>
+        </span>
+      </div>
+      <div class="Homes_files">
+        <div class="home_file">
+          <picture class="picture">
+          <a href="#"><img src="https://i.maxwork.pt/ds-l/developments/7739/ce8b9497-dac2-46c8-a3e0-26a947f72106.jpg" alt="this is any wrong"></a>
+          </picture>
+          <span>
+            <a href="#"><svg   class="icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(213, 191, 191);transform:msFilter"><path d="M6.42 9.87 12 20.78l5.58-10.91H6.42zM5.9 4.01 2 9.24h3.62l.28-5.23zm6.1-.59L6.63 9.24h10.74L12 3.42zM2.04 9.87l9.09 10.58L5.72 9.87H2.04zM11.53 3h-.15l-4.84.51a.09.09 0 0 1 0 .05l-.27 5.15zm1.34 17.45 9.09-10.58h-3.68l-5.41 10.58zm4.58-16.87a.09.09 0 0 1 0-.05l-4-.42-1-.11 5.26 5.71zm.65.43.28 5.23H22l-2.22-2.98-1.68-2.25z"></path></svg>Collaction</a>
+          </span>
+            <div class="home_info_01">
+              <p class="home_cost">From:360 500$</p>
+              <p class="home_name">Faro</p>
+            </div>
+              <div class="home_info_02">
+                <p class="home_name">Alta de Oeiras Residence...</p>
+                <div class="agent_picture">
+                  <img src="../images/Agent picture.png" alt="this is wrong">
+                </div>
+              </div>
+        </div>
+        <div class="home_file">
+          <picture class="picture">
+          <a href="#"><img src="../images/house_scroll.jpg" alt="this is any wrong"></a>
+          </picture>
+          <span>
+            <a href="#"><svg class="icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(213, 191, 191);transform:msFilter"><path d="M6.42 9.87 12 20.78l5.58-10.91H6.42zM5.9 4.01 2 9.24h3.62l.28-5.23zm6.1-.59L6.63 9.24h10.74L12 3.42zM2.04 9.87l9.09 10.58L5.72 9.87H2.04zM11.53 3h-.15l-4.84.51a.09.09 0 0 1 0 .05l-.27 5.15zm1.34 17.45 9.09-10.58h-3.68l-5.41 10.58zm4.58-16.87a.09.09 0 0 1 0-.05l-4-.42-1-.11 5.26 5.71zm.65.43.28 5.23H22l-2.22-2.98-1.68-2.25z"></path></svg>Collaction</a>
+          </span>
+            <div class="home_info_01">
+              <p class="home_cost">From:309 000$</p>
+              <p class="home_name">Alcochete</p>
+            </div>
+              <div class="home_info_02">
+                <p class="home_name">Empreendimento Unique...</p>
+                <div class="agent_picture">
+                  <img src="../images/agent1.png" alt="this is wrong">
+                </div>
+              </div>
+        </div>
+        
+
+        <div class="home_file">
+          <picture class="picture">
+          <a href="#"><img src="../images/house-scroll1..jpg" alt="this is any wrong"></a>
+          </picture>
+          <span>
+            <a href="#"><svg class="icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(213, 191, 191);transform:msFilter"><path d="M6.42 9.87 12 20.78l5.58-10.91H6.42zM5.9 4.01 2 9.24h3.62l.28-5.23zm6.1-.59L6.63 9.24h10.74L12 3.42zM2.04 9.87l9.09 10.58L5.72 9.87H2.04zM11.53 3h-.15l-4.84.51a.09.09 0 0 1 0 .05l-.27 5.15zm1.34 17.45 9.09-10.58h-3.68l-5.41 10.58zm4.58-16.87a.09.09 0 0 1 0-.05l-4-.42-1-.11 5.26 5.71zm.65.43.28 5.23H22l-2.22-2.98-1.68-2.25z"></path></svg>Collaction</a>
+          </span>
+            <div class="home_info_01">
+              <p class="home_cost">From:2100 000$</p>
+              <p class="home_name">Cascais</p>
+            </div>
+              <div class="home_info_02">
+                <p class="home_name">AZURE ESTORIL</p>
+                <div class="agent_picture">
+                  <img src="../images/agent2.jpg" alt="this is wrong">
+                </div>
+              </div>
+        </div>
+        <div class="home_file">
+          <picture class="picture">
+          <a href="#"><img src="../images/house-scroll2..jpg" alt="this is any wrong"></a>
+          </picture>
+          <span>
+            <a href="#"><svg class="icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(213, 191, 191);transform:msFilter"><path d="M6.42 9.87 12 20.78l5.58-10.91H6.42zM5.9 4.01 2 9.24h3.62l.28-5.23zm6.1-.59L6.63 9.24h10.74L12 3.42zM2.04 9.87l9.09 10.58L5.72 9.87H2.04zM11.53 3h-.15l-4.84.51a.09.09 0 0 1 0 .05l-.27 5.15zm1.34 17.45 9.09-10.58h-3.68l-5.41 10.58zm4.58-16.87a.09.09 0 0 1 0-.05l-4-.42-1-.11 5.26 5.71zm.65.43.28 5.23H22l-2.22-2.98-1.68-2.25z"></path></svg>Collaction</a>
+          </span>
+            <div class="home_info_01">
+              <p class="home_cost">From:325 000$</p>
+              <p class="home_name">Coimbra</p>
+            </div>
+              <div class="home_info_02">
+                <p class="home_name">Empreendimento Hillsi</p>
+                <div class="agent_picture">
+                  <img src="../images/agent3.png  " alt="this is wrong">
+                </div>
+              </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  </div>
+  <section class="only_view">
+    <div class="contanier">
+    <div class="Address_1">
+      <div class="for_find">
+        <h1>Find REMAX professionals <br>to suit your needs</h1>
+        <p>Find your Collection consultant, specialist in the luxury segment</p>
+        <a href="#">Find Agent</a>
+      </div>
+      <div class="agent_picture_search">
+        <img src="../images/find_agent_banner_pic_0.webp" alt="wrong">
+      </div>
+    </div>
+  </div>
+  </section>
+  <div class="contanier">
+  <div class="Regions">
+    <div class="Sarlavha">
+      <h1>Most searched regions</h1>
+    </div>
+    <div class="swiper">
+       <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="https://s.maxwork.pt/site/spa_resources/desktop/home/cities/coimbra_v0_vertical.webp" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://s.maxwork.pt/site/spa_resources/desktop/home/cities/braga_v0_vertical.webp" />
+        </div>
+        <div class="swiper-slide">
+          <img src="/images/count1.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://s.maxwork.pt/site/spa_resources/desktop/home/cities/faro_v0_vertical.webp" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://s.maxwork.pt/site/spa_resources/desktop/home/cities/leiria_v0_vertical.webp" />
+        </div>
+        <div class="swiper-slide">
+          <img src="/images/count3.webp" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://s.maxwork.pt/site/spa_resources/desktop/home/cities/porto_v0_vertical.webp" />
+        </div>        
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+    </div>
+  </div>
+  </div>
+  <div class="footer">
+    <div class="contanier">
+      <div class="row include">
+        <div class="col-md-4 pmp">
+          <div class="img">
+            <img src="../images/logo.jpg" alt="logo wrong">
+          </div>
+          <div class="icons">
+            <a href="https://t.me/JR0525"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: scaleX(-1) msFilter progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);"><path d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"></path></svg></a>
+            <a href="f"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: scaleX(-1) msFilter progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);"><path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path></svg></a>
+            <a href="https://www.instagram.com/jahongirrustamov2505"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: scaleX(-1) msFilter  progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);"><path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"></path></svg></a>
+          </div>
+        </div>
+
+      <div class="col-md-3 for_links links">
+        <a href="../RE_MAX/RE_max.html">RE/MAX</a>
+        <a href="#">RE/MAX Europe</a>
+        <a href="../contact/contact.html">Contact</a>
+      </div>
+      <div class="col-md-3 for_questions links">
+        <a href="../AGENT_SEARCH/agent.html">Become an Agent</a>
+        <a href="../Franchising/Franch.html">Franchising</a>
+        <a href="../WHY_RE_MAX/why.html">Why RE/MAX?</a>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 umn">
+      © RE/MAX 2024 Reserved Rights 
+    </div>
+    <div class="col-md-8 umn umn1">
+      Reporting Channel | Privacy Policy | Terms of Condition | Access Your Personal Data | Data Protection Statement
+    </div>
+  </div>
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+</html>

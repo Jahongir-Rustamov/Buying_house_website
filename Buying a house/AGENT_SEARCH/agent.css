@@ -1,0 +1,96 @@
+body {
+  background-image: linear-gradient(#0043bb, #000469);
+  min-height: 100vh;
+}
+.main_imd .full_pro .agent .img img {
+  width: 760px;
+}
+.main_imd {
+  padding-top: 70px;
+}
+.agent {
+  padding-left: 100px;
+}
+.search_agent .ime_air_ballon img {
+  width: 90px;
+}
+.search_agent {
+  position: absolute;
+  left: 50%;
+}
+.full_pro {
+  display: flex;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.ime_air_ballon {
+  padding-left: 90px;
+}
+.title {
+  padding-top: 50px;
+  display: flex;
+}
+.title h3 {
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: -1px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.search_agent .definition{
+  padding-top: 15px;
+}
+.definition p{
+  color: #ffffff;
+  line-height:1.3;
+}
+.search_agent .hr{
+  width: 100%;
+  margin: 1rem 0;
+  border-top: 1.3px solid white;
+}
+.agent_for_input{
+  display: flex;
+}
+.agent_for_input .common{
+margin-right: 30px;
+}
+.agent_for_input .common input,
+select{
+  margin:0px 5px 15px 0px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 240px;
+}
+
+::placeholder{
+  color: black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.search_agent .button {
+  padding-top: 20px;
+}
+.search_agent .button p{
+  color: #ffffff;
+  text-align: center;
+}
+.search_agent .button button{
+  height: 60px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  width: 90%;
+  text-transform: uppercase;
+  background-color: #DA1C2E;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+.search_agent .button button:hover{
+  transition: 0.8s all;
+  background-color: #c11515;
+}
+
